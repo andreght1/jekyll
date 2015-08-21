@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jekyll Tutorial</title>
+	<link rel="stylesheet" href="{{site.baseurl}}/common.css">
+</head>
+<body>
+	<header>
+		<h1>Jekyll Tutorial</h1>
+		{% include nav.html navclass='nav-top' %}
+	</header>
+	{{content}}
+	<footer>
+		{% include nav.html navclass='nav-bottom' %}
+		<p>&copy; 2015</p>
+	</footer>
+</body>
+</html>
